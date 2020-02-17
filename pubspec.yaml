@@ -1,0 +1,60 @@
+name: blog_app
+description: A new Flutter application.
+
+version: 1.10.7+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+
+  base_library:
+    git:
+      url: git://github.com/Sky24n/FlutterRepos.git
+      path: base_library
+    # Flutter 常用工具类库 https://github.com/Sky24n/flustars
+  lpinyin: ^1.0.7
+  azlistview: ^0.1.1
+
+    # https://github.com/flutterchina/dio
+    #  dio: 1.0.13
+  rxdart: ^0.22.6
+  pull_to_refresh: 1.1.6
+  share: ^0.6.3+3
+  flukit: ^1.0.2
+  zefyr: ^0.8.0
+  fluttertoast: ^2.1.1
+  dio: 1.0.13
+  json_serializable: ^2.1.13 # 解析
+  build_runner: ^1.1.2 # 解析
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - images/icon_class.png
+    - images/icon_class_tab.png
+    - images/icon_set.png
+    - images/icon_set_tab.png
+    - images/icon_my.png
+    - images/icon_my_tab.png
+    - images/icon_edit.png
+    - images/icon_edit_tab.png
+    - images/icon_blog.png
+    - images/icon_classify.png
+    - images/icon_link.png
+    - images/icon_out.png
+    - images/icon_password.png
+    - images/icon_system.png
+    - images/icon_tag.png
+    - images/icon_comment.png
